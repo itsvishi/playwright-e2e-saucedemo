@@ -1,27 +1,25 @@
 # Playwright E2E Automation Project
 
 ## 📌 Project Overview
-This project contains an end-to-end (E2E) test automation for SauceDemo website using Playwright.
+This project contains end-to-end (E2E) test automation for the SauceDemo website using Playwright.
 
-## 🚀 Test Scenarios
-- User logs in
+## 🚀 Test Scenarios Covered
+- User logs in successfully
 - Adds product to cart
-- Validates cart
-- Completes checkout
-- Logs out
+- Validates cart contents
+- Completes checkout process
+- Logs out of the application
 
 ## 🛠️ Tech Stack
-- Playwright (JavaScript)
+- Playwright (JavaScript / TypeScript)
 - Node.js
+- GitHub Actions (CI/CD)
 
-## ▶️ How to Run
-1. Install dependencies:
-   npm install
+## ▶️ How to Run Locally
+Install dependencies:
 
-2. Run test:
-   npx playwright test
+npm install
 
-## 📷 Features Covered
-- Assertions using expect
-- Dynamic value validation
-- Full user journey automation
+npx playwright install
+
+npx playwright test
