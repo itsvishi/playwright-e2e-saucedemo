@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 This project contains an end-to-end (E2E) test automation for SauceDemo website using Playwright.
 
-## 🚀 Test Scenario
+## 🚀 Test Scenarios
 - User logs in
 - Adds product to cart
 - Validates cart
