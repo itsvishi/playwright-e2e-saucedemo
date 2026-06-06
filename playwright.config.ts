@@ -30,7 +30,7 @@ export default defineConfig({
   // baseURL: 'http://localhost:3000',
 
   /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-  headless: false, //for ui screen to appear
+  headless: true, //for ui screen to appear
   trace: 'on', //for screenshots
   launchOptions: {
     slowMo: 3000, //for slowing each action
